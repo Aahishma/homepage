@@ -201,7 +201,7 @@ a.waves-light {
 }
 
 .lesson-box {
-  height: 120px;
+  /*height: 120px;*/
   width: 100%;
 }
 
@@ -438,3 +438,17 @@ ul.instagram-photos li img {
 .color-orange:hover .fa-graduation-cap {
   color: #ea5d0f;
 }
+
+
+/*----resposive-css-----------*/
+
+@media (max-width: 768px) {  
+  /*.lesson-box {
+    min-height: 190px;
+    width: 100%;
+  }*/
+
+
+}
+
+/*-----responsive-css-ends----*/
