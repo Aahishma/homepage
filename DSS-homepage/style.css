@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  /* background-color: #e5e5e5; */
+}
+
+/*Tablet*/
+/*Mobile L*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .adm-rqm {
+    height: auto;
+  }
+}
+
+/*Navbar and Footer*/
+
+/*Media Queries*/
+.sm-only {
+  display: none !important;
+}
+.pc-only {
+  display: block !important;
+}
+.about-pc {
+  display: block !important;
+}
+
+/* header */
+
+.main-header-design {
+  /* height: 4em; */
+  background-color: #0f5288;
+}
+
+.menu-size {
+  height: 27px;
+  padding: 0 5px 4px 0;
+  width: auto;
+  cursor: pointer;
+}
+
+#close-icon {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.logo {
+  height: 50px !important;
+  width: auto;
+  position: relative;
+  top: -30px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-link-icon {
+  display: inline;
+  color: #fff;
+  padding: 5px 8px;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.list-design-lang {
+  position: absolute;
+  top: 22px;
+  right: 50px;
+}
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+ul {
+  list-style-type: disc;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+.menu-button {
+  background-color: transparent;
+  color: #fff;
+  border: transparent;
+  font-size: 1.5rem;
+  position: relative;
+  left: 5%;
+  top: 12px;
+  cursor: pointer;
+}
+
+/* .ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background: 0 0;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 150px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #0f5288;
+  box-shadow: 0 0 20px rgb(0 0 0 / 50%);
+} */
+
+.bg-dark {
+  background-color: #0f5288 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.menu,
+.language {
+  color: white;
+}
+
+.logo {
+  height: 40px;
+}
+
+.belt-a,
+.belt-b,
+.belt-c {
+  background-color: #ea5d0e;
+}
+
+.lesson-plan {
+  background-color: #eeeeee;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+a.waves-effect,
+a.waves-light {
+  display: inline-block;
+}
+
+.lesson-block {
+  height: 120px;
+  width: 100%;
+}
+
+.color-dark-red {
+  background-color: #bc3582;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.lesson-box2 {
+  height: 150px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-a,
+.block-c,
+.block-d {
+  background-color: #0f5288;
+}
+
+.block-b {
+  background-color: red;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.lesson-content {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.lesson-box {
+  height: 120px;
+  width: 100%;
+}
+
+.color-yellow {
+  background-color: #e4c038;
+}
+
+.color-pink {
+  background-color: #f25f65;
+}
+
+.color-green {
+  background-color: #046031;
+}
+.color-blue {
+  background-color: #0f5288;
+}
+
+.color-orange {
+  background-color: #ea5d0f;
+}
+
+.padding-all {
+  padding: 20px 50px;
+}
+
+.lesson-content {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.btn,
+.white-text {
+  color: #fff !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.btn {
+  font-size: 0.8rem;
+  padding: 0.85rem 2.13rem;
+  margin: 6px;
+  border-radius: 2px;
+  border: 0;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  white-space: normal !important;
+  cursor: pointer;
+}
+
+.btn .fa {
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+
+.btn .fa,
+.card .card-body {
+  position: relative;
+}
+.lesson-content i {
+  font-size: 60px !important;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#myBtn {
+  /*display: none;*/
+  z-index: 99;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  padding: 5px 10px 10px 10px;
+  border-radius: 4px;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover {
+  outline: 0;
+}
+
+.btn:active,
+.btn:focus,
+.btn:hover,
+.media .media-left img,
+.modal-dialog .modal-content,
+.modal-dialog.cascading-modal .modal-header,
+.z-depth-1-half,
+ul.instagram-photos li img {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+
+.color-dark-red:hover {
+  background-color: #fff;
+  border: 3px solid rgba(181, 27, 116, 0.88);
+}
+
+.color-dark-red:hover .lesson-content span {
+  color: #bc3582;
+}
+
+.color-dark-red:hover .fa-child {
+  color: #bc3582;
+}
+
+.color-yellow:hover {
+  background-color: #fff;
+  border: 3px solid rgba(226, 184, 31, 0.88);
+}
+
+.color-yellow:hover .lesson-content span {
+  color: rgba(226, 184, 31, 0.88);
+}
+
+.color-yellow:hover .fa-child {
+  color: rgba(226, 184, 31, 0.88);
+}
+
+.color-pink:hover {
+  background-color: #fff;
+  border: 3px solid #f26065;
+}
+
+.color-pink:hover .lesson-content span {
+  color: #f26065;
+}
+
+.color-pink:hover .fa-graduation-cap {
+  color: #f26065;
+}
+
+.color-green:hover {
+  background-color: #fff;
+  border: 3px solid #046031;
+  transition: 0.5s;
+}
+
+.color-green:hover .lesson-content span {
+  color: #046031;
+}
+
+.color-green:hover .fa-calendar {
+  color: #046031;
+}
+
+.color-blue:hover {
+  background-color: #fff;
+  border: 3px solid #0f5288;
+}
+
+.color-blue:hover .lesson-content span {
+  color: #0f5288;
+}
+
+.color-blue:hover .fa-book {
+  color: #0f5288;
+}
+
+.color-orange:hover {
+  background-color: #fff;
+  border: 3px solid #ea5d0f;
+}
+.color-orange:hover .lesson-content span {
+  color: #ea5d0f;
+}
+
+.color-orange:hover .fa-tv {
+  color: #ea5d0f;
+}
+
+/* why dss */
+
+.padding-box {
+  padding: 10px 30px;
+}
+
+.lesson-block {
+  height: 800px;
+  width: 100%;
+}
+
+.dss-box {
+  height: 250px;
+  width: 100%;
+}
+
+.color-dss-blue {
+  background-color: #0f5288;
+}
+
+.color-dark-red:hover .fa-graduation-cap {
+  color: #bc3582;
+}
+
+.color-yellow:hover .fa-graduation-cap {
+  color: rgba(226, 184, 31, 0.88);
+}
+
+.color-pink:hover .fa-graduation-cap {
+  color: #f26065;
+}
+
+.color-green:hover .fa-graduation-cap {
+  color: #046031;
+}
+
+.color-blue:hover .fa-graduation-cap {
+  color: #0f5288;
+}
+
+.color-orange:hover .fa-graduation-cap {
+  color: #ea5d0f;
+}
